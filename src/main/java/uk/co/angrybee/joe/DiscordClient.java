@@ -158,7 +158,6 @@ public class DiscordClient extends ListenerAdapter
                 return;
             }
 
-            if (messageReceivedEvent.getAuthor().isBot())
             {
                 return;
             }
