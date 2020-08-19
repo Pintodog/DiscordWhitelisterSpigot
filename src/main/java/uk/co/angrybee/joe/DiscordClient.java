@@ -157,11 +157,6 @@ public class DiscordClient extends ListenerAdapter
             {
                 return;
             }
-
-            {
-                return;
-            }
-
             AuthorPermissions authorPermissions = new AuthorPermissions(messageReceivedEvent);
             User author = messageReceivedEvent.getAuthor();
             String messageContents = messageReceivedEvent.getMessage().getContentDisplay();
